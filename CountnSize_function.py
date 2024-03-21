@@ -16,7 +16,7 @@ def CountnSize(path1,path2):
 
 	#####  ÜBERPRÜFUNG der PFADE  ##########################################
 		
-	###  CHECK : Beide Pfade identisch?									# Sind beide Pfade identisch UND non-existent wird das hier nicht geprüft
+	###  CHECK : Beide Pfade identisch?						# Sind beide Pfade identisch UND non-existent wird das hier nicht geprüft
 	
 	while path1 == path2: 													
 		print("\nBeide Pfade sind identisch. Bitte gebe 2 unterschiedliche Pfade ein: \n(Zum sofortigen Beenden 2mal ENTER drücken)\n")
@@ -39,7 +39,7 @@ def CountnSize(path1,path2):
 	
 	###  Alle Folder&SubFolder durchblättern und in eine Liste packen, später Pfade zählen & deren Größe ermitteln
 	
-	pathList1_all = glob.glob(path1 + '/**/*', recursive=True)				# Matches all objects in the current directory and in all following subdirectories
+	pathList1_all = glob.glob(path1 + '/**/*', recursive=True)			# Matches all objects in the current directory and in all following subdirectories
 	pathList2_all = glob.glob(path2 + '/**/*', recursive=True)
 	
 	###  Alle Ordner in eigene Liste
