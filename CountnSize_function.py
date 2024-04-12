@@ -1,7 +1,7 @@
-###  VERGLEICH / "CHECKSUM" zweier Pfade/Ordner(&UnterOrdner)
-	###  Anzahl Dateien&Ordner und Summen-Größe aller Files eines Pfads werden mit denen des anderen vergleichen 
-		 ###  Zusätzl.: Checks ob Pfade identisch sind oder nicht existieren 
-	###  erweiterbar auf CheckSum/Vergleich (aller Files) über Hashs (CHECKSUM : hashlib : md5 , blake2b)
+###  VERGLEICH / "CHECKSUM" zweier Verzeichnis-Inhalte
+	###  Anzahl Dateien&UnterVerzeichnisse und GrößeSumme aller Dateien eines Verzeichnisses werden mit denen des anderen verglichen 
+		 ###  Zusätzlich: Überprüft ob Verzeichnisse identisch sind oder nicht existieren 
+	###  erweiterbar auf CheckSum-Vergleich per Hashs (hashlib : md5 , blake2b)
 
 
 
