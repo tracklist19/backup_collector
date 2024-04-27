@@ -23,7 +23,7 @@ hea = r"C:\Users\user\xyz_xyz"
 roa = r"C:\Users\user\AppData\Roaming"	
 scr = r"C:\Users\user\Pictures\Screenshots"
 
-##  Ziel										# LaufwerksBuchstabe zuweisen
+##  Ziel
 ddhr = r"Z:\BU_DDHR"
 
 ##  LIST of SourcePaths
@@ -34,7 +34,7 @@ dat = datetime.today().strftime('%Y%m')
 bu_dir = ddhr + '\\' + dat + '_DL5480'
 
 print("\nBefore copying : Show BU_DDHR-Folder Contents : \n")
-for i in os.listdir(ddhr):
+for i in os.listdir(ddhr):								# [print(i) for i in os.listdir(ddhr)]
 	print(i)
 
 
