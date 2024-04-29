@@ -94,7 +94,7 @@ for j in src_pathList:
 ###  SHOW BU-Directory Contents  #######################################
 
 print("\n\nCopy-Job done! \n\n\nAfter copying : Show BU-Directory Contents : \n")
-for i in os.listdir(bu_dir):
+for i in os.listdir(bu_dir):									# [print(i) for i in os.listdir(bu_dir)]
 	print(i)
 
 
